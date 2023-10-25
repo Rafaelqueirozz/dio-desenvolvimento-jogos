@@ -37,7 +37,7 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | **1.3** | Aula | Versionamento de Código com Git e GitHub | Done | <ul ><li>- [x] </li></ul>
 | **1.4** | Desafio de Projeto | Criando Seu Primeiro Repositório no GitHub para Compartilhar Seu Progresso | Done | <ul ><li>- [x] </li></ul>
 | **1.5** | Desafio de Projeto | Contribuindo em um projeto Open Source no GitHub | Done | <ul ><li>- [x] </li></ul>
-| **1.6** | Aula | Aula Inaugural - Potência Tech iFood | Doing | <ul ><li>- [ ] </li></ul>
+| **1.6** | Aula | Aula Inaugural - Potência Tech iFood | Done | <ul ><li>- [x] </li></ul>
 
 </details>
 <br>
@@ -47,8 +47,8 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
-| **2.1** | Aula |Entendendo Comunicação Client x Server | To do | <ul><li>- [ ] </li></ul>
-| **2.2** | Aula | Introdução ao HTML na Prática | To do | <ul><li>- [ ] </li></ul>
+| **2.1** | Aula |Entendendo Comunicação Client x Server | Done | <ul><li>- [x] </li></ul>
+| **2.2** | Aula | Introdução ao HTML na Prática | Done | <ul><li>- [x] </li></ul>
 | **2.3** | Aula | Trabalhando com Formulários em HTML | To do | <ul><li>- [ ] </li></ul>
 | **2.4** | Aula | Estruturando seu HTML + Formatações | To do | <ul><li>- [ ] </li></ul>
 | **2.5** | Aula | Fundamentos do CSS | To do | <ul><li>- [ ] </li></ul>
@@ -145,3 +145,5 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | Data | Status | Módulo | Descrição |
 |------|--------|--------|-----------|
 | 24/10/2023 | Doing | 1.5 | <a href="#1.1">Contribuindo em um projeto Open Source no GitHub</a> |
+| 25/10/2023 | Done | 1.5 | <a href="#1.1">Contribuindo em um projeto Open Source no GitHub</a> |
+| 25/10/2023 | Doing | 2.3 | <a href="#1.2">Trabalhando com Formulários em HTML</a> |
