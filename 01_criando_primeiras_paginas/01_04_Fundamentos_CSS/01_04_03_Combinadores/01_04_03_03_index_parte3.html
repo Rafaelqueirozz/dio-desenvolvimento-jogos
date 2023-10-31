@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+
+        /*
+        Combinadores: qual tipo de relação entre 2 seletores.
+        1. Combinador descendente (espaço)
+        2. Combinador filho (>)
+        3. Combinador irmão adjacente (+)
+        4. Combinador irmão em geral (~)
+
+        [SELETOR] [COMBINADOR] [SELETOR]
+
+        */
+
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }
+        
+        /* Utilizando combinadores */
+
+        /* Combinador Irmão em geral: */
+
+        div ~ p { /* Todos irmãos P da tag div */
+            color: red;
+        }
+        
+        /* Combinador Irmão adjacente: */
+        
+        div + p { /* Primeiro irmão da div */
+            text-transform: uppercase;
+        }
+        
+        .fundo-verde + p { /* Primeiro Irmão da classe fundo verde */
+            background: lightgreen;
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Fundamentos do CSS</h2>
+    <h3>Seletores e Combinadores - Irmão adjacente e Irmão em geral</h3>
+
+    <div class="fundo-verde">
+        <p>Parágrafo 1 (class fundo-verde) dentro da div (filho da div)</p>
+        <p>Parágrafo 2 (class fundo-verde) dentro da div (filho da div)</p>
+        <span>
+            <p>Parágrafo 3 (class fundo-verde) dentro da div, dentro do span (neto da div, filho do span)</p>
+        </span>
+    </div>
+
+    <p>Parágrafo 4, fora da div (sem classe, primeiro irmão da div)</p>
+    <p>Parágrafo 5, fora da div (sem classe)</p>
+
+    <div class="fundo-verde">
+        <p>Parágrafo 6 (class fundo-verde) dentro da div (filho da div)</p>
+        <p>Parágrafo 7 (class fundo-verde) dentro da div (filho da div)</p>
+        <span>
+            <p>Parágrafo 8 (class fundo-verde) dentro da div, dentro do span (neto da div, filho do span)</p>
+        </span>
+    </div>
+
+    <p>Parágrafo 9, fora da div (sem classe, primeiro irmão da div)</p>
+    <p>Parágrafo 10, fora da div (sem classe)</p>
+
+    <div class="fundo-azul">
+        <p>Parágrafo 11 (class fundo-azul) dentro da div (filho da div)</p>
+        <p>Parágrafo 12 (class fundo-azul) dentro da div (filho da div)</p>
+        <span>
+            <p>Parágrafo 13 (class fundo-azul) dentro da div, dentro do span (neto da div, filho do span)</p>
+        </span>
+    </div>
+
+    <p>Parágrafo 14, fora da div (sem classe, primeiro irmão da div)</p>
+    <p>Parágrafo 15, fora da div (sem classe)</p>
+
+</body>
+</html>

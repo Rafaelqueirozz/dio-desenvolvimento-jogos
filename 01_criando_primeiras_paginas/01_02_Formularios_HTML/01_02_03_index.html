@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Tags Form</h1>
+
+    <h3>Formulário - utilizando botões checkbox e radio</h3>
+    <form method="get">
+        <h3>Você selecionou Pizza de Calabresa</h3>
+        <p>Selecione abaixo as opções que deseja:</p>
+        <input type="checkbox" name="opcional[]" value="Queijo"> Queijo <br>
+        <input type="checkbox" name="opcional[]" value="Calabresa"> Calabresa <br>
+        <input type="checkbox" name="opcional[]" value="Cebola"> Cebola <br>
+        <input type="checkbox" name="opcional[]" value="Azeitona"> Azeitona <br>
+        <br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="Sim"> Sim <br>
+        <input type="radio" name="borda" value="Não"> Não <br>
+        <br>
+        <p>Bebida?</p>
+        <input type="radio" name="bebida" value="Suco"> Suco <br>
+        <input type="radio" name="bebida" value="Refrigerante"> Refrigerante <br>
+        <input type="radio" name="bebida" value="Agua"> Agua <br>
+        <input type="radio" name="bebida" value="Nenhum"> Nenhum <br>
+        <br>
+        <button type="submit" value="enviar">Fazer pedido</button>
+    </form>
+    
+    <!-- O tipo checkbox permite mais de uma marcação -->
+    <!-- O tipo radio permite apenas uma marcação -->
+
+</body>
+</html>

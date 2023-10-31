@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        /* 
+        Seletores: definem em quais lementos nós vamos aplicar o CSS.
+        1. Seletor de Tag/Tipo
+        2. Seletor de Id
+        3. Seletor de classes
+        4. Seletor universal
+        5. Seletor de atributo
+        */
+
+        /* A seguir temos seletores de ID */
+
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }
+
+        #texto-boas-vindas {
+            background: red;
+            color: white;
+        }
+
+        #explicacao-seletores {
+            background: rgb(49, 206, 167);
+            color: rgb(176, 11, 11);
+        }
+
+        /* A seguir temos seletores universais */
+
+        * {
+            font-weight: bold;
+            margin: .2em;
+            padding: .2em;
+        }
+
+        /* A seguir temos seletores por atributo */
+
+        [title] {
+            color: red;
+            text-decoration: none;
+        }
+        
+        [title~="Plataforma"] { /* o ~ serve para identificar a palavra em caso de haver espaço no atributo*/
+            color: rgb(85, 39, 185);
+        }
+
+        [title="DIO Plataforma"] {
+            text-transform: uppercase;
+        }
+
+        [title="GitHub"] {
+            color: rgb(212, 140, 7);
+        }
+
+        [href^="http://"] { /* o ^= serve para buscar quando inicia por aquele texto em especifico */
+            background-color: yellow;
+            color: blue;
+        }
+
+        [href$=".me"] { /* o ^= serve para buscar quando termina com aquele texto em especifico */
+            background-color: rgb(193, 68, 37);
+            color: blue;
+        }
+
+        [href*="udemy"] { /* o *= serve para buscar em qualquer local do atributo a palavra em especifico */
+            background-color: rgb(4, 89, 15);
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Fundamentos do CSS</h2>
+    <h3>Seletores CSS - Universal e por Atributos</h3>
+
+    <p>Bem-vindo!</p>
+    <p>No CSS nós possuímos os seletores por ID</p>
+    <div>
+        <ul>
+            <li><b>Seletor por tipo:</b> Busca elementos por uma tag HTML específica</li>
+            <li><b>Seletor por ID (#):</b> Busca elementos através do atributo "ID"</li>
+            <li><b>Seletor por Classe (.):</b> Busca elementos através do atributo "class"</li>
+            <li><b>Seletor Universal (*):</b> Seleciona todos os elementos HTML</li>
+            <li><b>Seletor de Atributo ([atrib]):</b> Seleciona elementos que possuem um atributo específico em nosso documento HTML. Conseguimos também buscar atributos com um valor específico.</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li><a title="DIO Plataforma" href="https://www.dio.me" target="_blank">DIO.me</a></li>
+            <li><a title="Udemy Plataforma" href="https://www.udemy.com" target="_blank">Udemy</a></li>
+            <li><a title="GitHub" href="https://www.github.com" target="_blank">GitHub</a></li>
+            <li><a title="LinkedIn" href="http://www.linkedin.com">LinkedIn</a></li>
+            <li><a>LinkedIn</a></li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+</html>

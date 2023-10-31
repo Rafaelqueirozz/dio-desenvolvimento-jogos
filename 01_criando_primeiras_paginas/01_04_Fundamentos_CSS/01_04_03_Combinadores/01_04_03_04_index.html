@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+
+        /*
+        Combinadores: qual tipo de relação entre 2 seletores.
+        1. Combinador descendente (espaço)
+        2. Combinador filho (>)
+        3. Combinador irmão adjacente (+)
+        4. Combinador irmão em geral (~)
+
+        [SELETOR] [COMBINADOR] [SELETOR]
+
+        */
+
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }
+
+        .fundo-verde span ~ p {
+            background: lightgreen;
+        }
+        
+        .fundo-verde p + p {
+            background: lightblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Fundamentos do CSS</h2>
+
+    <h3>Seletores e Combinadores - Utilizar varios seletores e combinadores juntos</h3>
+
+    <div class="fundo-verde">
+        <p>Elemento 01</p>
+        <p>Elemento 02</p>
+        <span>
+            <p>Elemento 03</p>
+            <p>Elemento 04</p>
+        </span>
+        <p>Elemento 05</p>
+        <p>Elemento 06</p>
+    </div>
+
+</body>
+</html>

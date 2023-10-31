@@ -49,8 +49,8 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 |--------|------|-----------------|--------|-----------|
 | **2.1** | Aula |Entendendo Comunicação Client x Server | Done | <ul><li>- [x] </li></ul>
 | **2.2** | Aula | Introdução ao HTML na Prática | Done | <ul><li>- [x] </li></ul>
-| **2.3** | Aula | Trabalhando com Formulários em HTML | To do | <ul><li>- [ ] </li></ul>
-| **2.4** | Aula | Estruturando seu HTML + Formatações | To do | <ul><li>- [ ] </li></ul>
+| **2.3** | Aula | Trabalhando com Formulários em HTML | Done | <ul><li>- [x] </li></ul>
+| **2.4** | Aula | Estruturando seu HTML + Formatações | Done | <ul><li>- [x] </li></ul>
 | **2.5** | Aula | Fundamentos do CSS | To do | <ul><li>- [ ] </li></ul>
 | **2.6** | Aula | Estiliações Básicas com CSS | To do | <ul><li>- [ ] </li></ul>
 | **2.7** | Desafio de Projeto | Criando sua Primeira Landing Page com HTML e CSS | To do | <ul><li>- [ ] </li></ul>
@@ -147,3 +147,5 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | 24/10/2023 | Doing | 1.5 | <a href="#1.1">Contribuindo em um projeto Open Source no GitHub</a> |
 | 25/10/2023 | Done | 1.5 | <a href="#1.1">Contribuindo em um projeto Open Source no GitHub</a> |
 | 25/10/2023 | Doing | 2.3 | <a href="#1.2">Trabalhando com Formulários em HTML</a> |
+| 30/10/2023 | Done | 2.3 | <a href="#1.2">Trabalhando com Formulários em HTML</a> |
+| 30/10/2023 | Doing | 2.5 | <a href="#1.2">Fundamentos do CSS</a> |
