@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }
+
+        div {
+            margin: 20px;
+        }
+
+        .exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/01.jpeg?w=1190&h=795);
+    background-size: 120px;
+    border: 3px solid blue;
+    }
+
+    /* Background Repeat */
+
+    #repeat-x {
+        background-repeat: repeat-x;
+    }
+
+    #repeat-y {
+        background-repeat: repeat-y;
+    }
+
+    #space {
+        background-repeat: space;
+    }
+
+    #round {
+        background-repeat: round;
+    }
+
+    #no-repeat {
+        background-repeat: no-repeat;
+    }
+
+    #repeat-round{
+        background-repeat: repeat round;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Estilizações Básicas com CSS</h2>
+
+    <h3>Fundo dos elementos - Repetição das imagens de fundo</h3>
+
+    <code>background-repeat: repeat-x;</code>
+    <div class="exemplo" id="repeat-x"></div>
+    <code>background-repeat: repeat-y;</code>
+    <div class="exemplo" id="repeat-y"></div>
+    <code>background-repeat: space;</code>
+    <div class="exemplo" id="space"></div>
+    <code>background-repeat: round;</code>
+    <div class="exemplo" id="round"></div>
+    <code>background-repeat: no-repeat;</code>
+    <div class="exemplo" id="no-repeat"></div>
+    <code>background-repeat: repeat round;</code>
+    <div class="exemplo" id="repeat-round"></div>
+</body>
+</html>

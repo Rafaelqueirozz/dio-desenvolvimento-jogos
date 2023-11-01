@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }
+
+        .text-transform-01 {text-transform: uppercase;}
+        .text-transform-02 {text-transform: lowercase;}
+        .text-transform-03 {text-transform: capitalize;}
+
+        .text-align-01 {text-align: right;}
+        .text-align-02 {text-align: center;}
+        .text-align-03 {text-align: left;}
+        .text-align-04 {text-align: justify;}
+        .exemplo {width: 500px; border: 1px solid blue; padding: 10px; display: block;}
+
+        .text-decoration-01 {text-decoration: solid line-through blue 2px;}
+        .text-decoration-02 {text-decoration: wavy overline red 2px;}
+        .text-decoration-03 {text-decoration: double underline green 2px;}
+        
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Estilizações Básicas com CSS</h2>
+
+    <h3>Textos - Text-transform / Text-align / Text-decoration</h3>
+
+    <h4>Text-transform - responsável por definir quais caracteres vão estar em maíusculo, minúsculo, etc</h4>
+
+    <p class="text-transform-01">Uppercase - Texto todo em maiusculo</p>
+    <p class="text-transform-02">Lowercase - Texto todo em minusculo</p>
+    <p class="text-transform-03">Capitalize - Texto com primeiras letras em maisculo</p>
+
+    <h4>Text-align - responsável por o alinhamento do texto dentro do espaço</h4>
+
+    <p class="text-align-02 exemplo">Text-align - center</p>
+    <p class="text-align-03 exemplo">Text-align - left</p>
+    <p class="text-align-01 exemplo">Text-align - right</p>
+    <p class="text-align-04 exemplo">Text-align - justify <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione autem velit expedita aut necessitatibus rerum tenetur nesciunt illum neque ducimus quod cupiditate voluptatem optio saepe, alias natus dignissimos sint quaerat vitae iste praesentium quasi assumenda illo exercitationem. Praesentium saepe totam non, distinctio dolorum maxime consequatur dolorem culpa a, rerum aperiam.
+    </p>
+
+    <h4>Text-decoration - responsável por decorar o texto com linhas em cima, abaixo e no meio, bem como cores, espessura e estilo</h4>
+        
+    <div>
+        <ul>
+            <li>text-decoration-line</li>
+            <li>text-decoration-style</li>
+            <li>text-decoration-color</li>
+            <li>text-decoration-thickness</li>
+        </ul>
+    </div>
+    <p class="text-decoration-01">text-decoration - solid line-through blue 2px</p>
+    <p class="text-decoration-02">text-decoration - wavy overline red 2px</p>
+    <p class="text-decoration-03">text-decoration - double underline green 2px</p>
+
+</body>
+</html>

@@ -51,9 +51,9 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | **2.2** | Aula | Introdução ao HTML na Prática | Done | <ul><li>- [x] </li></ul>
 | **2.3** | Aula | Trabalhando com Formulários em HTML | Done | <ul><li>- [x] </li></ul>
 | **2.4** | Aula | Estruturando seu HTML + Formatações | Done | <ul><li>- [x] </li></ul>
-| **2.5** | Aula | Fundamentos do CSS | To do | <ul><li>- [ ] </li></ul>
-| **2.6** | Aula | Estiliações Básicas com CSS | To do | <ul><li>- [ ] </li></ul>
-| **2.7** | Desafio de Projeto | Criando sua Primeira Landing Page com HTML e CSS | To do | <ul><li>- [ ] </li></ul>
+| **2.5** | Aula | Fundamentos do CSS | Done | <ul><li>- [x] </li></ul>
+| **2.6** | Aula | Estilizações Básicas com CSS | Done | <ul><li>- [x] </li></ul>
+| **2.7** | Desafio de Projeto | Criando sua Primeira Landing Page com HTML e CSS | Doing | <ul><li>- [x] </li></ul>
 
 </details>
 <br>
@@ -149,3 +149,5 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | 25/10/2023 | Doing | 2.3 | <a href="#1.2">Trabalhando com Formulários em HTML</a> |
 | 30/10/2023 | Done | 2.3 | <a href="#1.2">Trabalhando com Formulários em HTML</a> |
 | 30/10/2023 | Doing | 2.5 | <a href="#1.2">Fundamentos do CSS</a> |
+| 01/11/2023 | Done | 2.6 | <a href="#1.2">Estilizações Básicas com CSS</a> |
+| 01/11/2023 | Done | 2.7 | <a href="#1.2">Criando sua Primeira Landing Page com HTML e CSS</a> |

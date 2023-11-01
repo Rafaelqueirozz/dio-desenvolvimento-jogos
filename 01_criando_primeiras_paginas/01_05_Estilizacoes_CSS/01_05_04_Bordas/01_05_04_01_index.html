@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }        
+
+        div{
+            margin: 30px;
+        }
+
+        .exemplo{
+            background-color: palevioletred;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        /*
+        Propriedade border
+        1. border-widht
+        2. border-style
+        3. border-color
+        4. border-radius
+        */
+
+        #border-01 {
+            border-width: 10px 20px 30px 40px;
+            border-style: solid;
+            border-color: aqua;
+        }
+
+        #border-02 {
+            border-width: 10px;
+            border-style: dashed;
+            border-color: green;
+        }
+
+        #border-03 {
+            border-width: 10px;
+            border-style: double dotted solid dashed;
+            border-color: blue orange greenyellow peachpuff;
+        }
+        
+        #border-04 {
+            border: 10px solid olivedrab;
+            border-radius: 15px;
+        }
+
+        #border-05 {
+            border-radius: 25px 50px 0px;
+        }
+
+        #border-06 {
+            border-radius: 50%;
+            border: 10px solid blue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Estilizações Básicas com CSS</h2>
+
+    <h3>BORDAS - Tamanho, estilo, cor, propriedade border, arredondar os cantos</h3>
+
+    <p>As configurações de bordas podem ser definidas através das propriedades:</p>
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+        <li>border-radius</li>
+    </ul>
+    
+    <h4>Exemplo:</h4>
+    <div class="exemplo" id="border-01"></div>
+    <div class="exemplo" id="border-02"></div>
+    <div class="exemplo" id="border-03"></div>
+    <div class="exemplo" id="border-04"></div>
+    <div class="exemplo" id="border-05"></div>
+    <div class="exemplo" id="border-06"></div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        #titulo-principal{
+            text-align: center;
+        }
+
+        #titulo-secundario{
+            text-align: center;
+        }        
+
+        div{
+            margin: 30px;
+        }
+
+        .exemplo{
+            background-color: rgba(0, 0, 0, 0.144);
+            width: 200px;
+            height: 200px;
+            border: 30px solid;
+            display: inline-block;
+        }
+       
+        /*
+        Propriedade border com imagens
+        1. border-image-source
+        2. border-image-width
+        3. border-image-repeat
+        4. border-image-outset
+        5. border-image-slice
+        */
+
+        #exemplo-01 {
+            border-image-source: url(https://www.pvgr.eu/assets/img/articles/border-image-css-and-svg.png);
+            border-image-slice: 31;
+            border-image-repeat: round;
+        }
+
+        #exemplo-02 {
+            border-image-source: linear-gradient(rgb(247, 105, 105), 
+            rgb(255, 94, 0));
+            border-image-slice: 10;
+            border-image-width: .15 .5 .8 1.2;
+        }
+
+        #exemplo-03 {
+            border-image-source: radial-gradient(red, blue);
+            border-image-slice: 80;
+        }
+
+        #exemplo-04 {
+            border-image-source: url(https://global.discourse-cdn.com/sitepoint/original/3X/3/7/374bb1b00924ff7d47aaa42353d98169ddeb5b75.png);
+            border-image-slice: 50;
+            border-image-repeat: space;
+        }
+
+        #exemplo-05 {
+            border: 15px solid;
+            border-image-source: linear-gradient(red, blue);
+            border-image-slice: 100;
+            border-image-outset: 25px;
+        }
+
+        #exemplo-resumido {
+            border-image: url(https://global.discourse-cdn.com/sitepoint/original/3X/3/7/374bb1b00924ff7d47aaa42353d98169ddeb5b75.png) 55 / 15px round
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="titulo-principal">Criando suas primeiras páginas com HTML e CSS</h1>
+    <h2 id="titulo-secundario">Estilizações Básicas com CSS</h2>
+
+    <h3>BORDAS - Com imagens</h3>
+
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+    
+    <h4>Exemplo:</h4>
+    <div class="exemplo" id="exemplo-01"></div>
+    <div class="exemplo" id="exemplo-02"></div>
+    <div class="exemplo" id="exemplo-03"></div>
+    <div class="exemplo" id="exemplo-04"></div>
+    <div class="exemplo" id="exemplo-05"></div>
+    <br><br><br>
+    <div class="exemplo" id="exemplo-resumido"></div>
+
+
+</body>
+</html>
