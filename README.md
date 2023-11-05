@@ -28,7 +28,7 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 ## Módulos do projeto 
 
 <details>
-<summary id="1.1">1. Principios de desenvolvimento de jogo</summary>
+<summary id="1.1">1. Principios de Desenvolvimento de Jogos</summary>
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
@@ -63,12 +63,12 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
-| **3.1** | Aula | Primeiros Passos com JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **3.2** | Aula | Conhecendo Funções JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **3.3** | Aula | Criando Objetos e Classes em JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **3.4** | Aula | Arrays e Estruturas de Repetição em JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **3.5** | Aula | Importação e Exportação com JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **3.6** | Aula | Criando um Projeto com HTML/CSS para Listagem de Pokémon | To do | <ul><li>- [ ] </li></ul>
+| **3.1** | Aula | Primeiros Passos com JavaScript | Done | <ul><li>- [x] </li></ul>
+| **3.2** | Aula | Conhecendo Funções JavaScript | Done | <ul><li>- [x] </li></ul>
+| **3.3** | Aula | Criando Objetos e Classes em JavaScript | Done | <ul><li>- [x] </li></ul>
+| **3.4** | Aula | Arrays e Estruturas de Repetição em JavaScript | Done | <ul><li>- [x] </li></ul>
+| **3.5** | Aula | Importação e Exportação com JavaScript | Done | <ul><li>- [x] </li></ul>
+| **3.6** | Aula | Criando um Projeto com HTML/CSS para Listagem de Pokémon | Done | <ul><li>- [x] </li></ul>
 
 </details>
 <br>
@@ -78,12 +78,12 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
-| **4.1** | Desafio de Código | Aperfeiçoe Sua Lógica e Pensamento Computacional |  To do | ul ><li>- [ ] </li></ul>
-| **4.2** | Desafio de Código | A Jornada Heróica | To do | <ul><li>- [ ] </li></ul>
-| **4.3** | Desafio de Código | Pontuando Experiências - XP | To do | <ul><li>- [ ] </li></ul>
-| **4.4** | Desafio de Código | Capturando Pokemons | To do | <ul><li>- [ ] </li></ul>
-| **4.5** | Desafio de Código | Coletando Tesouros | To do | <ul><li>- [ ] </li></ul>
-| **4.6** | Desafio de Código | Gerando Biomas em Mundo de Bloco | To do | <ul><li>- [ ] </li></ul>
+| **4.1** | Desafio de Código | Aperfeiçoe Sua Lógica e Pensamento Computacional | Done | ul ><li>- [ ] </li></ul>
+| **4.2** | Desafio de Código | A Jornada Heróica | Done | <ul><li>- [x] </li></ul>
+| **4.3** | Desafio de Código | Pontuando Experiências - XP | Done | <ul><li>- [x] </li></ul>
+| **4.4** | Desafio de Código | Capturando Pokemons | Done | <ul><li>- [x] </li></ul>
+| **4.5** | Desafio de Código | Coletando Tesouros | Done | <ul><li>- [x] </li></ul>
+| **4.6** | Desafio de Código | Gerando Biomas em Mundo de Bloco | Done | <ul><li>- [x] </li></ul>
 
 </details>
 <br>
@@ -140,7 +140,7 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 ***
 
-## Status/Passo atual do Estudo/Projeto
+## Acompanhamento do progresso do curso
 
 | Data | Status | Módulo | Descrição |
 |------|--------|--------|-----------|
@@ -151,3 +151,14 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | 30/10/2023 | Doing | 2.5 | <a href="#1.2">Fundamentos do CSS</a> |
 | 01/11/2023 | Done | 2.6 | <a href="#1.2">Estilizações Básicas com CSS</a> |
 | 01/11/2023 | Done | 2.7 | <a href="#1.2">Criando sua Primeira Landing Page com HTML e CSS</a> |
+| 02/11/2023 | Done | 2.2 | <a href="#1.3">Deixando suas Páginas Web Dinâmicas com JavaScript</a> |
+| 02/11/2023 | Doing | 2.3 | <a href="#1.3">Criando Objetos e Classes em JavaScript</a> |
+| 03/11/2023 | Done | 2.3 | <a href="#1.3">Criando Objetos e Classes em JavaScript</a> |
+| 03/11/2023 | Doing | 2.6 | <a href="#1.3">Criando um Projeto com HTML/CSS para Listagem de Pokémon</a> |
+| 04/11/2023 | Done | 2.6 | <a href="#1.3">Criando um Projeto com HTML/CSS para Listagem de Pokémon</a> |
+| 04/11/2023 | Done | 3.6 | <a href="#1.4">Gerando Biomas em Mundo de Bloco</a> |
+| 04/11/2023 | Doing | 4.1 | <a href="#1.5">Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</a> |
+
+## Link para desafios concluidos
+
+* <a href="https://rafaelqueirozz.github.io/dio-desenvolvimento-jogos/Desafio_01/" target="_blank">Desafio 01</a> - Criando uma landing page com HTML e CSS.
