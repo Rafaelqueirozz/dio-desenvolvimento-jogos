@@ -93,10 +93,10 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
-| **5.1** | Aula | Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **5.2** | Aula | Orientação a Protótipo com JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **5.3** | Aula | Funções e Manipulação de Listas com JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **5.4** | Aula | Promises e Assincronismo com JavaScript | To do | <ul><li>- [ ] </li></ul>
+| **5.1** | Aula | Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript | Done | <ul><li>- [x] </li></ul>
+| **5.2** | Aula | Orientação a Protótipo com JavaScript | Done | <ul><li>- [x] </li></ul>
+| **5.3** | Aula | Funções e Manipulação de Listas com JavaScript | Done | <ul><li>- [x] </li></ul>
+| **5.4** | Aula | Promises e Assincronismo com JavaScript | Done | <ul><li>- [x] </li></ul>
 
 </details>
 <br>
@@ -106,11 +106,11 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
-| **6.1** | Desafio de Código | Combantendo Monstros! | To do | <ul><li>- [ ] </li></ul>
-| **6.2** | Desafio de Código | Academia de Magia | To do | <ul><li>- [ ] </li></ul> 
-| **6.3** | Desafio de Código | Tomadas de Decisão! | To do | <ul><li>- [ ] </li></ul>
-| **6.4** | Desafio de Código | Combinando Nomes de Pokemons| To do | <ul><li>- [ ] </li></ul>
-| **6.5** | Desafio de Código | Gerenciando Itens Mágicos | To do | <ul><li>- [ ] </li></ul>
+| **6.1** | Desafio de Código | Combantendo Monstros! | Done | <ul><li>- [x] </li></ul>
+| **6.2** | Desafio de Código | Academia de Magia | Done | <ul><li>- [x] </li></ul> 
+| **6.3** | Desafio de Código | Tomadas de Decisão! | Done | <ul><li>- [x] </li></ul>
+| **6.4** | Desafio de Código | Combinando Nomes de Pokemons| Done | <ul><li>- [x] </li></ul>
+| **6.5** | Desafio de Código | Gerenciando Itens Mágicos | Done | <ul><li>- [x] </li></ul>
 
 </details>
 <br>
@@ -120,7 +120,7 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
-| **7.1** | Desafio de Projeto | Criando um Jogo do Detona Ralph com JavaScript| To do | <ul><li>- [ ] </li></ul>
+| **7.1** | Desafio de Projeto | Criando um Jogo do Detona Ralph com JavaScript | Doing | <ul><li>- [ ] </li></ul>
 | **7.2** | Desafio de Projeto | Criando um Jogo da Memória com Emojis Utilizando JavaScript | To do | <ul><li>- [ ] </li></ul>
 | **7.3** | Desafio de Projeto | Construindo um Simulador de Piano com JavaScript | To do | <ul><li>- [ ] </li></ul>
 | **7.4** | Desafio de Projeto | Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS | To do | <ul><li>- [ ] </li></ul>
@@ -158,6 +158,10 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | 04/11/2023 | Done | 2.6 | <a href="#1.3">Criando um Projeto com HTML/CSS para Listagem de Pokémon</a> |
 | 04/11/2023 | Done | 3.6 | <a href="#1.4">Gerando Biomas em Mundo de Bloco</a> |
 | 04/11/2023 | Doing | 4.1 | <a href="#1.5">Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</a> |
+| 06/11/2023 | Done | 4.1 | <a href="#1.5">Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</a> |
+| 06/11/2023 | Done | 6.5 | <a href="#1.6">Gerenciando Itens Mágicos</a> |
+| 06/11/2023 | Doing | 7.1 | <a href="#1.6">Criando um Jogo do Detona Ralph com JavaScript/a> |
+
 
 ## Link para desafios concluidos
 
