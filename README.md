@@ -121,9 +121,9 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | Módulo | Tipo | Descrição       | Status | Concluído |
 |--------|------|-----------------|--------|-----------|
 | **7.1** | Desafio de Projeto | Criando um Jogo do Detona Ralph com JavaScript | Done | <ul><li>- [x] </li></ul>
-| **7.2** | Desafio de Projeto | Criando um Jogo da Memória com Emojis Utilizando JavaScript | Doing | <ul><li>- [ ] </li></ul>
-| **7.3** | Desafio de Projeto | Construindo um Simulador de Piano com JavaScript | To do | <ul><li>- [ ] </li></ul>
-| **7.4** | Desafio de Projeto | Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS | To do | <ul><li>- [ ] </li></ul>
+| **7.2** | Desafio de Projeto | Criando um Jogo da Memória com Emojis Utilizando JavaScript | Done | <ul><li>- [x] </li></ul>
+| **7.3** | Desafio de Projeto | Construindo um Simulador de Piano com JavaScript | Done | <ul><li>- [x] </li></ul>
+| **7.4** | Desafio de Projeto | Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS | Doing | <ul><li>- [ ] </li></ul>
 
 </details>
 
@@ -161,10 +161,14 @@ Este repositório foi criado com a intenção de detalhar e registrar os passos 
 | 06/11/2023 | Done | 4.1 | <a href="#1.5">Aprendendo Variáveis, Escopo e Tipos de dados no JavaScript</a> |
 | 06/11/2023 | Done | 6.5 | <a href="#1.6">Gerenciando Itens Mágicos</a> |
 | 06/11/2023 | Done | 7.1 | <a href="#1.6">Criando um Jogo do Detona Ralph com JavaScript</a> |
-| 06/11/2023 | Doing | 7.2 | <a href="#1.6">Criando um Jogo da Memória com Emojis Utilizando JavaScript</a> |
+| 06/11/2023 | Done | 7.2 | <a href="#1.6">Criando um Jogo da Memória com Emojis Utilizando JavaScript</a> |
+| 06/11/2023 | Done | 7.3 | <a href="#1.6">Criando um Jogo da Memória com Emojis Utilizando JavaScript</a> |
+| 06/11/2023 | Doing | 7.4 | <a href="#1.6">Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS</a> |
 
 
 ## Link para desafios concluidos
 
 * <a href="https://rafaelqueirozz.github.io/dio-desenvolvimento-jogos/Desafio_01/" target="_blank">Desafio 01</a> - Criando uma landing page com HTML e CSS.
 * <a href="https://rafaelqueirozz.github.io/dio-desenvolvimento-jogos/DetonaRalph/" target="_blank">Desafio 02</a> - Criando um jogo baseado no Detona Ralph com HTML, CSS e JavaScript.
+* <a href="https://rafaelqueirozz.github.io/dio-desenvolvimento-jogos/JogoMemoria_Com_Emojis/" target="_blank">Desafio 03</a> - Criando um jogo da Memoria com emojis.
+* <a href="https://rafaelqueirozz.github.io/dio-desenvolvimento-jogos/simulador_piano/" target="_blank">Desafio 04</a> - Criando um simulado de piano.
